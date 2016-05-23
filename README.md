@@ -4,8 +4,6 @@ http://code.lot.gd is a collection of modules to extend the
 Legend of the Green Dragon, Daenerys edition (see http://github.com/lotgd/core),
 based on the Composer package management system.
 
-Note, the site itself is housed on the `gh-pages` branch of this github repo.
-
 ## How do I install a module?
 
 In your `composer.json`, first add code.lot.gd as a repository so Composer knows
