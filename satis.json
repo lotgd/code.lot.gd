@@ -3,6 +3,7 @@
     "homepage": "http://code.lot.gd",
     "repositories": [
         { "type": "vcs", "url": "https://github.com/lotgd/module-helloworld" }
+        { "type": "vcs", "url": "https://github.com/lotgd/module-project" }
     ],
     "require-all": true
 }
