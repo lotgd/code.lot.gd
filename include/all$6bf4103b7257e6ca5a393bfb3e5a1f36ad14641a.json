@@ -1,0 +1,93 @@
+{
+    "packages": {
+        "lotgd/module-helloworld": {
+            "dev-master": {
+                "name": "lotgd/module-helloworld",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-helloworld.git",
+                    "reference": "c212cb00c2f9b710342b176e0922b824ea5a5431"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-helloworld/zipball/c212cb00c2f9b710342b176e0922b824ea5a5431",
+                    "reference": "c212cb00c2f9b710342b176e0922b824ea5a5431",
+                    "shasum": ""
+                },
+                "time": "2016-05-22 05:06:46",
+                "type": "lotgd-module",
+                "extra": {
+                    "subscriptions": [
+                        {
+                            "pattern": "/e\\/lotgd\\/hello-world/",
+                            "class": "LotGD\\Modules\\HelloWorld\\EventHandler"
+                        }
+                    ]
+                },
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Modules\\HelloWorld\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    }
+                ],
+                "description": "Example module to get contributors started.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-helloworld/tree/master",
+                    "issues": "https://github.com/lotgd/module-helloworld/issues"
+                }
+            }
+        },
+        "lotgd/module-project": {
+            "dev-master": {
+                "name": "lotgd/module-project",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-project.git",
+                    "reference": "316715da5ca2d6261e5ff6bdea6788ee10e3cc25"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-project/zipball/316715da5ca2d6261e5ff6bdea6788ee10e3cc25",
+                    "reference": "316715da5ca2d6261e5ff6bdea6788ee10e3cc25",
+                    "shasum": ""
+                },
+                "time": "2016-07-18 23:23:46",
+                "type": "lotgd-module",
+                "extra": {
+                    "subscriptions": []
+                },
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Modules\\MyNamespace\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    }
+                ],
+                "description": "Starter code for your own custom LotGD module.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-project/tree/master",
+                    "issues": "https://github.com/lotgd/module-project/issues"
+                }
+            }
+        }
+    }
+}

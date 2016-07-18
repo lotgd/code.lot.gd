@@ -1,0 +1,12 @@
+{
+    "name": "lotgd/code.lot.gd",
+    "authors": [
+        {
+            "name": "Austen McDonald",
+            "email": "austen.mcdonald@gmail.com"
+        }
+    ],
+    "require": {
+        "composer/satis": "1.0.0-alpha2"
+    }
+}
