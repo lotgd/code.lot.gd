@@ -45,7 +45,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                     Legend of the Green Dragon Repositories
                             </h1>
                         <div id="lastupdate">
-                Last updated: <time datetime="2016-05-21T05:37:02+0000">Sat, 21 May 2016 05:37:02 +0000</time>
+                Last updated: <time datetime="2016-07-18T23:37:13+0000">Mon, 18 Jul 2016 23:37:13 +0000</time>
             </div>
         </div>
         <div id="bd">
@@ -89,7 +89,41 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/lotgd/module-helloworld/zipball/6d86a08b271d95145244aaa7e8db5c696901d3c1" title="6d86a08b271d95145244aaa7e8db5c696901d3c1">dev-master</a>                                </td>
+                                    <a href="https://api.github.com/repos/lotgd/module-helloworld/zipball/c212cb00c2f9b710342b176e0922b824ea5a5431" title="c212cb00c2f9b710342b176e0922b824ea5a5431">dev-master</a>                                </td>
+                            </tr>
+                            <tr>
+                                <th>Required by</th>
+                                <td>
+                                                                                                        </td>
+                            </tr>
+                        </table>
+                    </div>
+                                    <div>
+                        <h3 id="lotgd/module-project">lotgd/module-project<a href="#lotgd/module-project"><small>¶</small></a></h3>
+                                                                            <p>Starter code for your own custom LotGD module.</p>
+                                                <table>
+                                                                                        <tr>
+                                    <th>License</th>
+                                    <td>AGPL-3.0</td>
+                                </tr>
+                                                                                        <tr>
+                                    <th>Authors</th>
+                                    <td>
+                                        Austen McDonald                                    </td>
+                                </tr>
+                                                                                    <tr>
+                                <th>Support</th>
+                                <td>
+                                    <ul>
+                                                                            <li>Source: <a href="https://github.com/lotgd/module-project/tree/master">https://github.com/lotgd/module-project/tree/master</a></li>
+                                                                            <li>Issues: <a href="https://github.com/lotgd/module-project/issues">https://github.com/lotgd/module-project/issues</a></li>
+                                                                        </ul>
+                                </td>
+                            </tr>
+                                                        <tr>
+                                <th>Releases</th>
+                                <td>
+                                    <a href="https://api.github.com/repos/lotgd/module-project/zipball/316715da5ca2d6261e5ff6bdea6788ee10e3cc25" title="316715da5ca2d6261e5ff6bdea6788ee10e3cc25">dev-master</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -102,7 +136,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
             </div>
         </div>
         <div id="ft">
-            <p><small>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> 1.0.0-dev - Last updated:  2016-05-21T05:37:02+0000</small></p>
+            <p><small>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> 1.0.0-dev - Last updated:  2016-07-18T23:37:13+0000</small></p>
         </div>
     </div>
 
@@ -153,7 +187,7 @@ if(x.isFunction(n))while(r=o[i++])"+"===r[0]?(r=r.slice(1)||"*",(e[r]=e[r]||[]).
         $(window).trigger("hashchange");
         var $lastUpdate = $('#lastupdate time');
         function updateDate() {
-            $lastUpdate.text(moment('2016-05-21T05:37:02+0000').fromNow());
+            $lastUpdate.text(moment('2016-07-18T23:37:13+0000').fromNow());
         }
         setInterval(updateDate, 5000);
         updateDate();
