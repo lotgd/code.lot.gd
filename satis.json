@@ -4,7 +4,9 @@
     "repositories": [
         { "type": "vcs", "url": "https://github.com/lotgd/module-helloworld" },
         { "type": "vcs", "url": "https://github.com/lotgd/module-project" },
-        { "type": "vcs", "url": "https://github.com/lotgd/module-dragon-kills" }
+        { "type": "vcs", "url": "https://github.com/lotgd/module-dragon-kills" },
+        { "type": "vcs", "url": "https://github.com/lotgd/module-forms" },
+        { "type": "vcs", "url": "https://github.com/lotgd/module-weapon-shop" }
     ],
     "require-all": true
 }
