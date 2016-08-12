@@ -1,0 +1,206 @@
+{
+    "packages": {
+        "lotgd/module-dragon-kills": {
+            "dev-master": {
+                "name": "lotgd/module-dragon-kills",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-dragon-kills.git",
+                    "reference": "0b258a8f1e135a207744b52a3f62be0e9f407443"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-dragon-kills/zipball/0b258a8f1e135a207744b52a3f62be0e9f407443",
+                    "reference": "0b258a8f1e135a207744b52a3f62be0e9f407443",
+                    "shasum": ""
+                },
+                "time": "2016-08-05 05:22:38",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Modules\\DragonKills\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    }
+                ],
+                "description": "Track dragon kills in your realm.",
+                "homepage": "https://github.com/lotgd/module-dragon-kills",
+                "support": {
+                    "source": "https://github.com/lotgd/module-dragon-kills/tree/master",
+                    "issues": "https://github.com/lotgd/module-dragon-kills/issues"
+                }
+            }
+        },
+        "lotgd/module-forms": {
+            "dev-master": {
+                "name": "lotgd/module-forms",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-forms.git",
+                    "reference": "5da9c9b20d8caaa09ebc85360a6ae01705752ed0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-forms/zipball/5da9c9b20d8caaa09ebc85360a6ae01705752ed0",
+                    "reference": "5da9c9b20d8caaa09ebc85360a6ae01705752ed0",
+                    "shasum": ""
+                },
+                "require": {
+                    "myclabs/php-enum": "^1.4.2"
+                },
+                "time": "2016-08-11 06:43:39",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Modules\\Forms\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    }
+                ],
+                "description": "Attachments that implement a simple form interface for user input.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-forms/tree/master",
+                    "issues": "https://github.com/lotgd/module-forms/issues"
+                }
+            }
+        },
+        "lotgd/module-helloworld": {
+            "dev-master": {
+                "name": "lotgd/module-helloworld",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-helloworld.git",
+                    "reference": "5673c642108714606ecc52c92149b707e84728b9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-helloworld/zipball/5673c642108714606ecc52c92149b707e84728b9",
+                    "reference": "5673c642108714606ecc52c92149b707e84728b9",
+                    "shasum": ""
+                },
+                "time": "2016-08-05 05:22:14",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Modules\\HelloWorld\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    }
+                ],
+                "description": "Example module to get contributors started.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-helloworld/tree/master",
+                    "issues": "https://github.com/lotgd/module-helloworld/issues"
+                }
+            }
+        },
+        "lotgd/module-project": {
+            "dev-master": {
+                "name": "lotgd/module-project",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-project.git",
+                    "reference": "3f2b40be974116e89cd3f866a06d028e0c34952d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-project/zipball/3f2b40be974116e89cd3f866a06d028e0c34952d",
+                    "reference": "3f2b40be974116e89cd3f866a06d028e0c34952d",
+                    "shasum": ""
+                },
+                "time": "2016-08-05 05:24:57",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "MyVendor\\MyNamespace\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    }
+                ],
+                "description": "Starter code for your own custom LotGD module.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-project/tree/master",
+                    "issues": "https://github.com/lotgd/module-project/issues"
+                }
+            }
+        },
+        "lotgd/module-weapon-shop": {
+            "dev-master": {
+                "name": "lotgd/module-weapon-shop",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-weapon-shop.git",
+                    "reference": "22f64de5a18f520e213b411421ca298d1fe67ec2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-weapon-shop/zipball/22f64de5a18f520e213b411421ca298d1fe67ec2",
+                    "reference": "22f64de5a18f520e213b411421ca298d1fe67ec2",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/module-forms": "*"
+                },
+                "time": "2016-08-12 05:47:09",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Modules\\WeaponShop\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    }
+                ],
+                "description": "The village weapon shop.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-weapon-shop/tree/master",
+                    "issues": "https://github.com/lotgd/module-weapon-shop/issues"
+                }
+            }
+        }
+    }
+}

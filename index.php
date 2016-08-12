@@ -45,7 +45,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                     Legend of the Green Dragon Repositories
                             </h1>
                         <div id="lastupdate">
-                Last updated: <time datetime="2016-07-18T23:37:13+0000">Mon, 18 Jul 2016 23:37:13 +0000</time>
+                Last updated: <time datetime="2016-08-12T05:48:25+0000">Fri, 12 Aug 2016 05:48:25 +0000</time>
             </div>
         </div>
         <div id="bd">
@@ -64,6 +64,81 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                 <input type="text" id="search" autocomplete="off" autofocus />
 
                 <div id="package-list">
+                                    <div>
+                        <h3 id="lotgd/module-dragon-kills">lotgd/module-dragon-kills<a href="#lotgd/module-dragon-kills"><small>¶</small></a></h3>
+                                                                            <p>Track dragon kills in your realm.</p>
+                                                <table>
+                                                            <tr>
+                                    <th>Homepage</th>
+                                    <td><a href="https://github.com/lotgd/module-dragon-kills">https://github.com/lotgd/module-dragon-kills</a></td>
+                                </tr>
+                                                                                        <tr>
+                                    <th>License</th>
+                                    <td>AGPL-3.0</td>
+                                </tr>
+                                                                                        <tr>
+                                    <th>Authors</th>
+                                    <td>
+                                        Austen McDonald                                    </td>
+                                </tr>
+                                                                                    <tr>
+                                <th>Support</th>
+                                <td>
+                                    <ul>
+                                                                            <li>Source: <a href="https://github.com/lotgd/module-dragon-kills/tree/master">https://github.com/lotgd/module-dragon-kills/tree/master</a></li>
+                                                                            <li>Issues: <a href="https://github.com/lotgd/module-dragon-kills/issues">https://github.com/lotgd/module-dragon-kills/issues</a></li>
+                                                                        </ul>
+                                </td>
+                            </tr>
+                                                        <tr>
+                                <th>Releases</th>
+                                <td>
+                                    <a href="https://api.github.com/repos/lotgd/module-dragon-kills/zipball/0b258a8f1e135a207744b52a3f62be0e9f407443" title="0b258a8f1e135a207744b52a3f62be0e9f407443">dev-master</a>                                </td>
+                            </tr>
+                            <tr>
+                                <th>Required by</th>
+                                <td>
+                                                                                                        </td>
+                            </tr>
+                        </table>
+                    </div>
+                                    <div>
+                        <h3 id="lotgd/module-forms">lotgd/module-forms<a href="#lotgd/module-forms"><small>¶</small></a></h3>
+                                                                            <p>Attachments that implement a simple form interface for user input.</p>
+                                                <table>
+                                                                                        <tr>
+                                    <th>License</th>
+                                    <td>AGPL-3.0</td>
+                                </tr>
+                                                                                        <tr>
+                                    <th>Authors</th>
+                                    <td>
+                                        Austen McDonald                                    </td>
+                                </tr>
+                                                                                    <tr>
+                                <th>Support</th>
+                                <td>
+                                    <ul>
+                                                                            <li>Source: <a href="https://github.com/lotgd/module-forms/tree/master">https://github.com/lotgd/module-forms/tree/master</a></li>
+                                                                            <li>Issues: <a href="https://github.com/lotgd/module-forms/issues">https://github.com/lotgd/module-forms/issues</a></li>
+                                                                        </ul>
+                                </td>
+                            </tr>
+                                                        <tr>
+                                <th>Releases</th>
+                                <td>
+                                    <a href="https://api.github.com/repos/lotgd/module-forms/zipball/5da9c9b20d8caaa09ebc85360a6ae01705752ed0" title="5da9c9b20d8caaa09ebc85360a6ae01705752ed0">dev-master</a>                                </td>
+                            </tr>
+                            <tr>
+                                <th>Required by</th>
+                                <td>
+                                                                                                                <ul>
+                                                                                            <li><a href="#lotgd/module-weapon-shop">lotgd/module-weapon-shop</a></li>
+                                                                                    </ul>
+                                                                    </td>
+                            </tr>
+                        </table>
+                    </div>
                                     <div>
                         <h3 id="lotgd/module-helloworld">lotgd/module-helloworld<a href="#lotgd/module-helloworld"><small>¶</small></a></h3>
                                                                             <p>Example module to get contributors started.</p>
@@ -89,7 +164,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/lotgd/module-helloworld/zipball/c212cb00c2f9b710342b176e0922b824ea5a5431" title="c212cb00c2f9b710342b176e0922b824ea5a5431">dev-master</a>                                </td>
+                                    <a href="https://api.github.com/repos/lotgd/module-helloworld/zipball/5673c642108714606ecc52c92149b707e84728b9" title="5673c642108714606ecc52c92149b707e84728b9">dev-master</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -123,7 +198,41 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/lotgd/module-project/zipball/316715da5ca2d6261e5ff6bdea6788ee10e3cc25" title="316715da5ca2d6261e5ff6bdea6788ee10e3cc25">dev-master</a>                                </td>
+                                    <a href="https://api.github.com/repos/lotgd/module-project/zipball/3f2b40be974116e89cd3f866a06d028e0c34952d" title="3f2b40be974116e89cd3f866a06d028e0c34952d">dev-master</a>                                </td>
+                            </tr>
+                            <tr>
+                                <th>Required by</th>
+                                <td>
+                                                                                                        </td>
+                            </tr>
+                        </table>
+                    </div>
+                                    <div>
+                        <h3 id="lotgd/module-weapon-shop">lotgd/module-weapon-shop<a href="#lotgd/module-weapon-shop"><small>¶</small></a></h3>
+                                                                            <p>The village weapon shop.</p>
+                                                <table>
+                                                                                        <tr>
+                                    <th>License</th>
+                                    <td>AGPL-3.0</td>
+                                </tr>
+                                                                                        <tr>
+                                    <th>Authors</th>
+                                    <td>
+                                        Austen McDonald                                    </td>
+                                </tr>
+                                                                                    <tr>
+                                <th>Support</th>
+                                <td>
+                                    <ul>
+                                                                            <li>Source: <a href="https://github.com/lotgd/module-weapon-shop/tree/master">https://github.com/lotgd/module-weapon-shop/tree/master</a></li>
+                                                                            <li>Issues: <a href="https://github.com/lotgd/module-weapon-shop/issues">https://github.com/lotgd/module-weapon-shop/issues</a></li>
+                                                                        </ul>
+                                </td>
+                            </tr>
+                                                        <tr>
+                                <th>Releases</th>
+                                <td>
+                                    <a href="https://api.github.com/repos/lotgd/module-weapon-shop/zipball/22f64de5a18f520e213b411421ca298d1fe67ec2" title="22f64de5a18f520e213b411421ca298d1fe67ec2">dev-master</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -136,7 +245,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
             </div>
         </div>
         <div id="ft">
-            <p><small>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> 1.0.0-dev - Last updated:  2016-07-18T23:37:13+0000</small></p>
+            <p><small>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> 1.0.0-dev - Last updated:  2016-08-12T05:48:25+0000</small></p>
         </div>
     </div>
 
@@ -187,7 +296,7 @@ if(x.isFunction(n))while(r=o[i++])"+"===r[0]?(r=r.slice(1)||"*",(e[r]=e[r]||[]).
         $(window).trigger("hashchange");
         var $lastUpdate = $('#lastupdate time');
         function updateDate() {
-            $lastUpdate.text(moment('2016-07-18T23:37:13+0000').fromNow());
+            $lastUpdate.text(moment('2016-08-12T05:48:25+0000').fromNow());
         }
         setInterval(updateDate, 5000);
         updateDate();
