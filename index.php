@@ -45,7 +45,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                     Legend of the Green Dragon Repositories
                             </h1>
                         <div id="lastupdate">
-                Last updated: <time datetime="2016-08-12T05:48:25+0000">Fri, 12 Aug 2016 05:48:25 +0000</time>
+                Last updated: <time datetime="2016-08-21T03:44:37+0000">Sun, 21 Aug 2016 03:44:37 +0000</time>
             </div>
         </div>
         <div id="bd">
@@ -198,7 +198,75 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/lotgd/module-project/zipball/3f2b40be974116e89cd3f866a06d028e0c34952d" title="3f2b40be974116e89cd3f866a06d028e0c34952d">dev-master</a>                                </td>
+                                    <a href="https://api.github.com/repos/lotgd/module-project/zipball/a426dff3926d7dec75a77897b04f7ac7dfce4985" title="a426dff3926d7dec75a77897b04f7ac7dfce4985">dev-master</a>                                </td>
+                            </tr>
+                            <tr>
+                                <th>Required by</th>
+                                <td>
+                                                                                                        </td>
+                            </tr>
+                        </table>
+                    </div>
+                                    <div>
+                        <h3 id="lotgd/module-simple-inventory">lotgd/module-simple-inventory<a href="#lotgd/module-simple-inventory"><small>¶</small></a></h3>
+                                                                            <p>Constants for defining weapons and armor for Characters.</p>
+                                                <table>
+                                                                                        <tr>
+                                    <th>License</th>
+                                    <td>AGPL-3.0</td>
+                                </tr>
+                                                                                        <tr>
+                                    <th>Authors</th>
+                                    <td>
+                                        Austen McDonald                                    </td>
+                                </tr>
+                                                                                    <tr>
+                                <th>Support</th>
+                                <td>
+                                    <ul>
+                                                                            <li>Source: <a href="https://github.com/lotgd/module-simple-inventory/tree/master">https://github.com/lotgd/module-simple-inventory/tree/master</a></li>
+                                                                            <li>Issues: <a href="https://github.com/lotgd/module-simple-inventory/issues">https://github.com/lotgd/module-simple-inventory/issues</a></li>
+                                                                        </ul>
+                                </td>
+                            </tr>
+                                                        <tr>
+                                <th>Releases</th>
+                                <td>
+                                    <a href="https://api.github.com/repos/lotgd/module-simple-inventory/zipball/0f175b07b1827fbad4219783245f105fafe0a507" title="0f175b07b1827fbad4219783245f105fafe0a507">dev-master</a>                                </td>
+                            </tr>
+                            <tr>
+                                <th>Required by</th>
+                                <td>
+                                                                                                        </td>
+                            </tr>
+                        </table>
+                    </div>
+                                    <div>
+                        <h3 id="lotgd/module-simple-wealth">lotgd/module-simple-wealth<a href="#lotgd/module-simple-wealth"><small>¶</small></a></h3>
+                                                                            <p>Gold and gem tracking for users.</p>
+                                                <table>
+                                                                                        <tr>
+                                    <th>License</th>
+                                    <td>AGPL-3.0</td>
+                                </tr>
+                                                                                        <tr>
+                                    <th>Authors</th>
+                                    <td>
+                                        Austen McDonald                                    </td>
+                                </tr>
+                                                                                    <tr>
+                                <th>Support</th>
+                                <td>
+                                    <ul>
+                                                                            <li>Source: <a href="https://github.com/lotgd/module-simple-wealth/tree/master">https://github.com/lotgd/module-simple-wealth/tree/master</a></li>
+                                                                            <li>Issues: <a href="https://github.com/lotgd/module-simple-wealth/issues">https://github.com/lotgd/module-simple-wealth/issues</a></li>
+                                                                        </ul>
+                                </td>
+                            </tr>
+                                                        <tr>
+                                <th>Releases</th>
+                                <td>
+                                    <a href="https://api.github.com/repos/lotgd/module-simple-wealth/zipball/b031cd04a01b403d1419b7c1ab6e5e09bbc38d25" title="b031cd04a01b403d1419b7c1ab6e5e09bbc38d25">dev-master</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -245,7 +313,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
             </div>
         </div>
         <div id="ft">
-            <p><small>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> 1.0.0-dev - Last updated:  2016-08-12T05:48:25+0000</small></p>
+            <p><small>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> 1.0.0-dev - Last updated:  2016-08-21T03:44:37+0000</small></p>
         </div>
     </div>
 
@@ -296,7 +364,7 @@ if(x.isFunction(n))while(r=o[i++])"+"===r[0]?(r=r.slice(1)||"*",(e[r]=e[r]||[]).
         $(window).trigger("hashchange");
         var $lastUpdate = $('#lastupdate time');
         function updateDate() {
-            $lastUpdate.text(moment('2016-08-12T05:48:25+0000').fromNow());
+            $lastUpdate.text(moment('2016-08-21T03:44:37+0000').fromNow());
         }
         setInterval(updateDate, 5000);
         updateDate();

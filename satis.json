@@ -6,7 +6,9 @@
         { "type": "vcs", "url": "https://github.com/lotgd/module-project" },
         { "type": "vcs", "url": "https://github.com/lotgd/module-dragon-kills" },
         { "type": "vcs", "url": "https://github.com/lotgd/module-forms" },
-        { "type": "vcs", "url": "https://github.com/lotgd/module-weapon-shop" }
+        { "type": "vcs", "url": "https://github.com/lotgd/module-weapon-shop" },
+        { "type": "vcs", "url": "https://github.com/lotgd/module-simple-inventory" },
+        { "type": "vcs", "url": "https://github.com/lotgd/module-simple-wealth" }
     ],
     "require-all": true
 }

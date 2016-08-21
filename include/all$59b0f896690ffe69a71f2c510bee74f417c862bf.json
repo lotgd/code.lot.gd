@@ -129,15 +129,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-project.git",
-                    "reference": "3f2b40be974116e89cd3f866a06d028e0c34952d"
+                    "reference": "a426dff3926d7dec75a77897b04f7ac7dfce4985"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-project/zipball/3f2b40be974116e89cd3f866a06d028e0c34952d",
-                    "reference": "3f2b40be974116e89cd3f866a06d028e0c34952d",
+                    "url": "https://api.github.com/repos/lotgd/module-project/zipball/a426dff3926d7dec75a77897b04f7ac7dfce4985",
+                    "reference": "a426dff3926d7dec75a77897b04f7ac7dfce4985",
                     "shasum": ""
                 },
-                "time": "2016-08-05 05:24:57",
+                "time": "2016-08-20 21:15:14",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
@@ -157,6 +157,84 @@
                 "support": {
                     "source": "https://github.com/lotgd/module-project/tree/master",
                     "issues": "https://github.com/lotgd/module-project/issues"
+                }
+            }
+        },
+        "lotgd/module-simple-inventory": {
+            "dev-master": {
+                "name": "lotgd/module-simple-inventory",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-simple-inventory.git",
+                    "reference": "0f175b07b1827fbad4219783245f105fafe0a507"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-simple-inventory/zipball/0f175b07b1827fbad4219783245f105fafe0a507",
+                    "reference": "0f175b07b1827fbad4219783245f105fafe0a507",
+                    "shasum": ""
+                },
+                "time": "2016-08-12 19:54:21",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Modules\\SimpleInventory": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    }
+                ],
+                "description": "Constants for defining weapons and armor for Characters.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-simple-inventory/tree/master",
+                    "issues": "https://github.com/lotgd/module-simple-inventory/issues"
+                }
+            }
+        },
+        "lotgd/module-simple-wealth": {
+            "dev-master": {
+                "name": "lotgd/module-simple-wealth",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-simple-wealth.git",
+                    "reference": "b031cd04a01b403d1419b7c1ab6e5e09bbc38d25"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-simple-wealth/zipball/b031cd04a01b403d1419b7c1ab6e5e09bbc38d25",
+                    "reference": "b031cd04a01b403d1419b7c1ab6e5e09bbc38d25",
+                    "shasum": ""
+                },
+                "time": "2016-08-21 03:42:12",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Modules\\SimpleWealth\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    }
+                ],
+                "description": "Gold and gem tracking for users.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-simple-wealth/tree/master",
+                    "issues": "https://github.com/lotgd/module-simple-wealth/issues"
                 }
             }
         },
