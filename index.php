@@ -45,7 +45,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                     Legend of the Green Dragon Repositories
                             </h1>
                         <div id="lastupdate">
-                Last updated: <time datetime="2016-08-23T21:55:37+0000">Tue, 23 Aug 2016 21:55:37 +0000</time>
+                Last updated: <time datetime="2016-08-23T22:07:02+0000">Tue, 23 Aug 2016 22:07:02 +0000</time>
             </div>
         </div>
         <div id="bd">
@@ -84,7 +84,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/lotgd/core/zipball/db95b84452893a9660135a813fa648e5651c3b6a" title="db95b84452893a9660135a813fa648e5651c3b6a">dev-master</a>, <a href="https://api.github.com/repos/lotgd/core/zipball/cbcc6060253e9b6e56d3c8ab67f42134fd4cd2f9" title="cbcc6060253e9b6e56d3c8ab67f42134fd4cd2f9">dev-test/configuration</a>, <a href="https://api.github.com/repos/lotgd/core/zipball/86751fc6d515371246593c8312233be1bbae9e7b" title="86751fc6d515371246593c8312233be1bbae9e7b">dev-feature/refactor-model-tests</a>                                </td>
+                                    <a href="https://api.github.com/repos/lotgd/core/zipball/5fc68227370637705a756ae07174e739b05ed279" title="5fc68227370637705a756ae07174e739b05ed279">dev-master</a>, <a href="https://api.github.com/repos/lotgd/core/zipball/cbcc6060253e9b6e56d3c8ab67f42134fd4cd2f9" title="cbcc6060253e9b6e56d3c8ab67f42134fd4cd2f9">dev-test/configuration</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -230,7 +230,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/lotgd/module-project/zipball/570ffa8d5e435aad7e719b9cc9de10566ce16203" title="570ffa8d5e435aad7e719b9cc9de10566ce16203">dev-master</a>                                </td>
+                                    <a href="https://api.github.com/repos/lotgd/module-project/zipball/640e0ea8b248083cb95a90a36f754f35828c7dc0" title="640e0ea8b248083cb95a90a36f754f35828c7dc0">dev-master</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -348,7 +348,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
             </div>
         </div>
         <div id="ft">
-            <p><small>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> 1.0.0-dev - Last updated:  2016-08-23T21:55:37+0000</small></p>
+            <p><small>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> 1.0.0-dev - Last updated:  2016-08-23T22:07:02+0000</small></p>
         </div>
     </div>
 
@@ -399,7 +399,7 @@ if(x.isFunction(n))while(r=o[i++])"+"===r[0]?(r=r.slice(1)||"*",(e[r]=e[r]||[]).
         $(window).trigger("hashchange");
         var $lastUpdate = $('#lastupdate time');
         function updateDate() {
-            $lastUpdate.text(moment('2016-08-23T21:55:37+0000').fromNow());
+            $lastUpdate.text(moment('2016-08-23T22:07:02+0000').fromNow());
         }
         setInterval(updateDate, 5000);
         updateDate();
