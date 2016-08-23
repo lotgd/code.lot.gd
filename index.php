@@ -45,7 +45,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                     Legend of the Green Dragon Repositories
                             </h1>
                         <div id="lastupdate">
-                Last updated: <time datetime="2016-08-21T03:44:37+0000">Sun, 21 Aug 2016 03:44:37 +0000</time>
+                Last updated: <time datetime="2016-08-23T21:55:37+0000">Tue, 23 Aug 2016 21:55:37 +0000</time>
             </div>
         </div>
         <div id="bd">
@@ -64,6 +64,38 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                 <input type="text" id="search" autocomplete="off" autofocus />
 
                 <div id="package-list">
+                                    <div>
+                        <h3 id="lotgd/core">lotgd/core<a href="#lotgd/core"><small>¶</small></a></h3>
+                                                                            <p>Core functionality for Legend of the Green Dragon, a text-based RPG game.</p>
+                                                <table>
+                                                                                        <tr>
+                                    <th>License</th>
+                                    <td>AGPL-3.0</td>
+                                </tr>
+                                                                                                                <tr>
+                                <th>Support</th>
+                                <td>
+                                    <ul>
+                                                                            <li>Source: <a href="https://github.com/lotgd/core/tree/master">https://github.com/lotgd/core/tree/master</a></li>
+                                                                            <li>Issues: <a href="https://github.com/lotgd/core/issues">https://github.com/lotgd/core/issues</a></li>
+                                                                        </ul>
+                                </td>
+                            </tr>
+                                                        <tr>
+                                <th>Releases</th>
+                                <td>
+                                    <a href="https://api.github.com/repos/lotgd/core/zipball/db95b84452893a9660135a813fa648e5651c3b6a" title="db95b84452893a9660135a813fa648e5651c3b6a">dev-master</a>, <a href="https://api.github.com/repos/lotgd/core/zipball/cbcc6060253e9b6e56d3c8ab67f42134fd4cd2f9" title="cbcc6060253e9b6e56d3c8ab67f42134fd4cd2f9">dev-test/configuration</a>, <a href="https://api.github.com/repos/lotgd/core/zipball/86751fc6d515371246593c8312233be1bbae9e7b" title="86751fc6d515371246593c8312233be1bbae9e7b">dev-feature/refactor-model-tests</a>                                </td>
+                            </tr>
+                            <tr>
+                                <th>Required by</th>
+                                <td>
+                                                                                                                <ul>
+                                                                                            <li><a href="#lotgd/module-project">lotgd/module-project</a></li>
+                                                                                    </ul>
+                                                                    </td>
+                            </tr>
+                        </table>
+                    </div>
                                     <div>
                         <h3 id="lotgd/module-dragon-kills">lotgd/module-dragon-kills<a href="#lotgd/module-dragon-kills"><small>¶</small></a></h3>
                                                                             <p>Track dragon kills in your realm.</p>
@@ -93,7 +125,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/lotgd/module-dragon-kills/zipball/0b258a8f1e135a207744b52a3f62be0e9f407443" title="0b258a8f1e135a207744b52a3f62be0e9f407443">dev-master</a>                                </td>
+                                    <a href="https://api.github.com/repos/lotgd/module-dragon-kills/zipball/a603ae7672d1946092dbdba25c32ca77d6d2600d" title="a603ae7672d1946092dbdba25c32ca77d6d2600d">dev-master</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -127,7 +159,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/lotgd/module-forms/zipball/5da9c9b20d8caaa09ebc85360a6ae01705752ed0" title="5da9c9b20d8caaa09ebc85360a6ae01705752ed0">dev-master</a>                                </td>
+                                    <a href="https://api.github.com/repos/lotgd/module-forms/zipball/8bbe31c641f6019ae01efeb14aa657cc08f77224" title="8bbe31c641f6019ae01efeb14aa657cc08f77224">dev-master</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -164,7 +196,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/lotgd/module-helloworld/zipball/5673c642108714606ecc52c92149b707e84728b9" title="5673c642108714606ecc52c92149b707e84728b9">dev-master</a>                                </td>
+                                    <a href="https://api.github.com/repos/lotgd/module-helloworld/zipball/c6048465970cc7adb1d8ed4f3c92d3cbbf772aeb" title="c6048465970cc7adb1d8ed4f3c92d3cbbf772aeb">dev-master</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -198,7 +230,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/lotgd/module-project/zipball/a426dff3926d7dec75a77897b04f7ac7dfce4985" title="a426dff3926d7dec75a77897b04f7ac7dfce4985">dev-master</a>                                </td>
+                                    <a href="https://api.github.com/repos/lotgd/module-project/zipball/570ffa8d5e435aad7e719b9cc9de10566ce16203" title="570ffa8d5e435aad7e719b9cc9de10566ce16203">dev-master</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -209,7 +241,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                     </div>
                                     <div>
                         <h3 id="lotgd/module-simple-inventory">lotgd/module-simple-inventory<a href="#lotgd/module-simple-inventory"><small>¶</small></a></h3>
-                                                                            <p>Constants for defining weapons and armor for Characters.</p>
+                                                                            <p>Constants and models for defining weapons and armor for Characters.</p>
                                                 <table>
                                                                                         <tr>
                                     <th>License</th>
@@ -232,12 +264,15 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/lotgd/module-simple-inventory/zipball/0f175b07b1827fbad4219783245f105fafe0a507" title="0f175b07b1827fbad4219783245f105fafe0a507">dev-master</a>                                </td>
+                                    <a href="https://api.github.com/repos/lotgd/module-simple-inventory/zipball/40fb22022ef199e3d2ca6d53e6c811cec98d8b52" title="40fb22022ef199e3d2ca6d53e6c811cec98d8b52">dev-master</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
                                 <td>
-                                                                                                        </td>
+                                                                                                                <ul>
+                                                                                            <li><a href="#lotgd/module-weapon-shop">lotgd/module-weapon-shop</a></li>
+                                                                                    </ul>
+                                                                    </td>
                             </tr>
                         </table>
                     </div>
@@ -300,7 +335,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/lotgd/module-weapon-shop/zipball/22f64de5a18f520e213b411421ca298d1fe67ec2" title="22f64de5a18f520e213b411421ca298d1fe67ec2">dev-master</a>                                </td>
+                                    <a href="https://api.github.com/repos/lotgd/module-weapon-shop/zipball/6ae15cd55e5018c25b86b2f03d0fdb328604261b" title="6ae15cd55e5018c25b86b2f03d0fdb328604261b">dev-master</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -313,7 +348,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
             </div>
         </div>
         <div id="ft">
-            <p><small>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> 1.0.0-dev - Last updated:  2016-08-21T03:44:37+0000</small></p>
+            <p><small>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> 1.0.0-dev - Last updated:  2016-08-23T21:55:37+0000</small></p>
         </div>
     </div>
 
@@ -364,7 +399,7 @@ if(x.isFunction(n))while(r=o[i++])"+"===r[0]?(r=r.slice(1)||"*",(e[r]=e[r]||[]).
         $(window).trigger("hashchange");
         var $lastUpdate = $('#lastupdate time');
         function updateDate() {
-            $lastUpdate.text(moment('2016-08-21T03:44:37+0000').fromNow());
+            $lastUpdate.text(moment('2016-08-23T21:55:37+0000').fromNow());
         }
         setInterval(updateDate, 5000);
         updateDate();

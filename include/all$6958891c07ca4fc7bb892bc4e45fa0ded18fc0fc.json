@@ -1,5 +1,157 @@
 {
     "packages": {
+        "lotgd/core": {
+            "dev-master": {
+                "name": "lotgd/core",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/core.git",
+                    "reference": "db95b84452893a9660135a813fa648e5651c3b6a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/db95b84452893a9660135a813fa648e5651c3b6a",
+                    "reference": "db95b84452893a9660135a813fa648e5651c3b6a",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/composer": "*",
+                    "d11wtq/boris": "^1.0",
+                    "doctrine/orm": "^2.5",
+                    "gedmo/doctrine-extensions": "*",
+                    "monolog/monolog": "^1.12",
+                    "php": "^7.0.0",
+                    "symfony/console": "^3.0",
+                    "symfony/yaml": "^3.0"
+                },
+                "require-dev": {
+                    "block8/php-docblock-checker": "2.0.0",
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2016-08-22 08:48:51",
+                "bin": [
+                    "bin/daenerys"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Core\\": "src/",
+                        "LotGD\\Core\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "description": "Core functionality for Legend of the Green Dragon, a text-based RPG game.",
+                "support": {
+                    "source": "https://github.com/lotgd/core/tree/master",
+                    "issues": "https://github.com/lotgd/core/issues"
+                }
+            },
+            "dev-feature/refactor-model-tests": {
+                "name": "lotgd/core",
+                "version": "dev-feature/refactor-model-tests",
+                "version_normalized": "dev-feature/refactor-model-tests",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/core.git",
+                    "reference": "86751fc6d515371246593c8312233be1bbae9e7b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/86751fc6d515371246593c8312233be1bbae9e7b",
+                    "reference": "86751fc6d515371246593c8312233be1bbae9e7b",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/composer": "*",
+                    "d11wtq/boris": "^1.0",
+                    "doctrine/orm": "^2.5",
+                    "gedmo/doctrine-extensions": "*",
+                    "monolog/monolog": "^1.12",
+                    "php": "^7.0.0",
+                    "symfony/console": "^3.0",
+                    "symfony/yaml": "^3.0"
+                },
+                "require-dev": {
+                    "block8/php-docblock-checker": "2.0.0",
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2016-08-22 21:30:22",
+                "bin": [
+                    "bin/daenerys"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Core\\": "src/",
+                        "LotGD\\Core\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "description": "Core functionality for Legend of the Green Dragon, a text-based RPG game.",
+                "support": {
+                    "source": "https://github.com/lotgd/core/tree/feature/refactor-model-tests",
+                    "issues": "https://github.com/lotgd/core/issues"
+                }
+            },
+            "dev-test/configuration": {
+                "name": "lotgd/core",
+                "version": "dev-test/configuration",
+                "version_normalized": "dev-test/configuration",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/core.git",
+                    "reference": "cbcc6060253e9b6e56d3c8ab67f42134fd4cd2f9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/cbcc6060253e9b6e56d3c8ab67f42134fd4cd2f9",
+                    "reference": "cbcc6060253e9b6e56d3c8ab67f42134fd4cd2f9",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/composer": "*",
+                    "d11wtq/boris": "^1.0",
+                    "doctrine/orm": "^2.5",
+                    "gedmo/doctrine-extensions": "*",
+                    "monolog/monolog": "^1.12",
+                    "php": "^7.0.0",
+                    "symfony/console": "^3.0",
+                    "symfony/yaml": "^3.0"
+                },
+                "require-dev": {
+                    "block8/php-docblock-checker": "2.0.0",
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2016-08-12 06:24:43",
+                "bin": [
+                    "bin/daenerys"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Core\\": "src/",
+                        "LotGD\\Core\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "description": "Core functionality for Legend of the Green Dragon, a text-based RPG game.",
+                "support": {
+                    "source": "https://github.com/lotgd/core/tree/test/configuration",
+                    "issues": "https://github.com/lotgd/core/issues"
+                }
+            }
+        },
         "lotgd/module-dragon-kills": {
             "dev-master": {
                 "name": "lotgd/module-dragon-kills",
@@ -8,15 +160,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-dragon-kills.git",
-                    "reference": "0b258a8f1e135a207744b52a3f62be0e9f407443"
+                    "reference": "a603ae7672d1946092dbdba25c32ca77d6d2600d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-dragon-kills/zipball/0b258a8f1e135a207744b52a3f62be0e9f407443",
-                    "reference": "0b258a8f1e135a207744b52a3f62be0e9f407443",
+                    "url": "https://api.github.com/repos/lotgd/module-dragon-kills/zipball/a603ae7672d1946092dbdba25c32ca77d6d2600d",
+                    "reference": "a603ae7672d1946092dbdba25c32ca77d6d2600d",
                     "shasum": ""
                 },
-                "time": "2016-08-05 05:22:38",
+                "time": "2016-08-21 03:52:04",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
@@ -48,18 +200,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-forms.git",
-                    "reference": "5da9c9b20d8caaa09ebc85360a6ae01705752ed0"
+                    "reference": "8bbe31c641f6019ae01efeb14aa657cc08f77224"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-forms/zipball/5da9c9b20d8caaa09ebc85360a6ae01705752ed0",
-                    "reference": "5da9c9b20d8caaa09ebc85360a6ae01705752ed0",
+                    "url": "https://api.github.com/repos/lotgd/module-forms/zipball/8bbe31c641f6019ae01efeb14aa657cc08f77224",
+                    "reference": "8bbe31c641f6019ae01efeb14aa657cc08f77224",
                     "shasum": ""
                 },
                 "require": {
                     "myclabs/php-enum": "^1.4.2"
                 },
-                "time": "2016-08-11 06:43:39",
+                "time": "2016-08-21 03:52:30",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
@@ -90,15 +242,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-helloworld.git",
-                    "reference": "5673c642108714606ecc52c92149b707e84728b9"
+                    "reference": "c6048465970cc7adb1d8ed4f3c92d3cbbf772aeb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-helloworld/zipball/5673c642108714606ecc52c92149b707e84728b9",
-                    "reference": "5673c642108714606ecc52c92149b707e84728b9",
+                    "url": "https://api.github.com/repos/lotgd/module-helloworld/zipball/c6048465970cc7adb1d8ed4f3c92d3cbbf772aeb",
+                    "reference": "c6048465970cc7adb1d8ed4f3c92d3cbbf772aeb",
                     "shasum": ""
                 },
-                "time": "2016-08-05 05:22:14",
+                "time": "2016-08-21 03:52:46",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
@@ -129,15 +281,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-project.git",
-                    "reference": "a426dff3926d7dec75a77897b04f7ac7dfce4985"
+                    "reference": "570ffa8d5e435aad7e719b9cc9de10566ce16203"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-project/zipball/a426dff3926d7dec75a77897b04f7ac7dfce4985",
-                    "reference": "a426dff3926d7dec75a77897b04f7ac7dfce4985",
+                    "url": "https://api.github.com/repos/lotgd/module-project/zipball/570ffa8d5e435aad7e719b9cc9de10566ce16203",
+                    "reference": "570ffa8d5e435aad7e719b9cc9de10566ce16203",
                     "shasum": ""
                 },
-                "time": "2016-08-20 21:15:14",
+                "require": {
+                    "lotgd/core": "dev-master"
+                },
+                "time": "2016-08-23 21:46:16",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
@@ -168,15 +323,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-simple-inventory.git",
-                    "reference": "0f175b07b1827fbad4219783245f105fafe0a507"
+                    "reference": "40fb22022ef199e3d2ca6d53e6c811cec98d8b52"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-simple-inventory/zipball/0f175b07b1827fbad4219783245f105fafe0a507",
-                    "reference": "0f175b07b1827fbad4219783245f105fafe0a507",
+                    "url": "https://api.github.com/repos/lotgd/module-simple-inventory/zipball/40fb22022ef199e3d2ca6d53e6c811cec98d8b52",
+                    "reference": "40fb22022ef199e3d2ca6d53e6c811cec98d8b52",
                     "shasum": ""
                 },
-                "time": "2016-08-12 19:54:21",
+                "time": "2016-08-21 03:53:36",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
@@ -192,7 +347,7 @@
                         "email": "austen.mcdonald@gmail.com"
                     }
                 ],
-                "description": "Constants for defining weapons and armor for Characters.",
+                "description": "Constants and models for defining weapons and armor for Characters.",
                 "support": {
                     "source": "https://github.com/lotgd/module-simple-inventory/tree/master",
                     "issues": "https://github.com/lotgd/module-simple-inventory/issues"
@@ -246,18 +401,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-weapon-shop.git",
-                    "reference": "22f64de5a18f520e213b411421ca298d1fe67ec2"
+                    "reference": "6ae15cd55e5018c25b86b2f03d0fdb328604261b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-weapon-shop/zipball/22f64de5a18f520e213b411421ca298d1fe67ec2",
-                    "reference": "22f64de5a18f520e213b411421ca298d1fe67ec2",
+                    "url": "https://api.github.com/repos/lotgd/module-weapon-shop/zipball/6ae15cd55e5018c25b86b2f03d0fdb328604261b",
+                    "reference": "6ae15cd55e5018c25b86b2f03d0fdb328604261b",
                     "shasum": ""
                 },
                 "require": {
-                    "lotgd/module-forms": "*"
+                    "lotgd/module-forms": "dev-master",
+                    "lotgd/module-simple-inventory": "dev-master"
                 },
-                "time": "2016-08-12 05:47:09",
+                "time": "2016-08-21 03:54:25",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
