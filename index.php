@@ -45,7 +45,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                     Legend of the Green Dragon Repositories
                             </h1>
                         <div id="lastupdate">
-                Last updated: <time datetime="2016-08-23T22:38:19+0000">Tue, 23 Aug 2016 22:38:19 +0000</time>
+                Last updated: <time datetime="2016-08-27T04:45:32+0000">Sat, 27 Aug 2016 04:45:32 +0000</time>
             </div>
         </div>
         <div id="bd">
@@ -76,7 +76,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                 <th>Support</th>
                                 <td>
                                     <ul>
-                                                                            <li>Source: <a href="https://github.com/lotgd/core/tree/feature/fix-game-getters">https://github.com/lotgd/core/tree/feature/fix-game-getters</a></li>
+                                                                            <li>Source: <a href="https://github.com/lotgd/core/tree/feature/add-actiongroup-constant">https://github.com/lotgd/core/tree/feature/add-actiongroup-constant</a></li>
                                                                             <li>Issues: <a href="https://github.com/lotgd/core/issues">https://github.com/lotgd/core/issues</a></li>
                                                                         </ul>
                                 </td>
@@ -84,13 +84,16 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/lotgd/core/zipball/135dd22939585afae61e002310006527a2dce683" title="135dd22939585afae61e002310006527a2dce683">dev-master</a>, <a href="https://api.github.com/repos/lotgd/core/zipball/cbcc6060253e9b6e56d3c8ab67f42134fd4cd2f9" title="cbcc6060253e9b6e56d3c8ab67f42134fd4cd2f9">dev-test/configuration</a>, <a href="https://api.github.com/repos/lotgd/core/zipball/135dd22939585afae61e002310006527a2dce683" title="135dd22939585afae61e002310006527a2dce683">dev-feature/fix-game-getters</a>                                </td>
+                                    <a href="https://api.github.com/repos/lotgd/core/zipball/ab8ab726adcf98283ea28e65d34e6eb3eb641b86" title="ab8ab726adcf98283ea28e65d34e6eb3eb641b86">dev-master</a>, <a href="https://api.github.com/repos/lotgd/core/zipball/ab8ab726adcf98283ea28e65d34e6eb3eb641b86" title="ab8ab726adcf98283ea28e65d34e6eb3eb641b86">dev-feature/add-actiongroup-constant</a>, <a href="https://api.github.com/repos/lotgd/core/zipball/cbcc6060253e9b6e56d3c8ab67f42134fd4cd2f9" title="cbcc6060253e9b6e56d3c8ab67f42134fd4cd2f9">dev-test/configuration</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
                                 <td>
                                                                                                                 <ul>
+                                                                                            <li><a href="#lotgd/module-dragon-kills">lotgd/module-dragon-kills</a></li>
                                                                                             <li><a href="#lotgd/module-project">lotgd/module-project</a></li>
+                                                                                            <li><a href="#lotgd/module-simple-inventory">lotgd/module-simple-inventory</a></li>
+                                                                                            <li><a href="#lotgd/module-simple-wealth">lotgd/module-simple-wealth</a></li>
                                                                                     </ul>
                                                                     </td>
                             </tr>
@@ -125,7 +128,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/lotgd/module-dragon-kills/zipball/a603ae7672d1946092dbdba25c32ca77d6d2600d" title="a603ae7672d1946092dbdba25c32ca77d6d2600d">dev-master</a>                                </td>
+                                    <a href="https://api.github.com/repos/lotgd/module-dragon-kills/zipball/8af041b2dff4a28577668d72a4af5f43ae21ca54" title="8af041b2dff4a28577668d72a4af5f43ae21ca54">dev-master</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -172,40 +175,6 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                         </table>
                     </div>
                                     <div>
-                        <h3 id="lotgd/module-helloworld">lotgd/module-helloworld<a href="#lotgd/module-helloworld"><small>¶</small></a></h3>
-                                                                            <p>Example module to get contributors started.</p>
-                                                <table>
-                                                                                        <tr>
-                                    <th>License</th>
-                                    <td>MIT</td>
-                                </tr>
-                                                                                        <tr>
-                                    <th>Authors</th>
-                                    <td>
-                                        Austen McDonald                                    </td>
-                                </tr>
-                                                                                    <tr>
-                                <th>Support</th>
-                                <td>
-                                    <ul>
-                                                                            <li>Source: <a href="https://github.com/lotgd/module-helloworld/tree/master">https://github.com/lotgd/module-helloworld/tree/master</a></li>
-                                                                            <li>Issues: <a href="https://github.com/lotgd/module-helloworld/issues">https://github.com/lotgd/module-helloworld/issues</a></li>
-                                                                        </ul>
-                                </td>
-                            </tr>
-                                                        <tr>
-                                <th>Releases</th>
-                                <td>
-                                    <a href="https://api.github.com/repos/lotgd/module-helloworld/zipball/c6048465970cc7adb1d8ed4f3c92d3cbbf772aeb" title="c6048465970cc7adb1d8ed4f3c92d3cbbf772aeb">dev-master</a>                                </td>
-                            </tr>
-                            <tr>
-                                <th>Required by</th>
-                                <td>
-                                                                                                        </td>
-                            </tr>
-                        </table>
-                    </div>
-                                    <div>
                         <h3 id="lotgd/module-project">lotgd/module-project<a href="#lotgd/module-project"><small>¶</small></a></h3>
                                                                             <p>Starter code for your own custom LotGD module.</p>
                                                 <table>
@@ -230,7 +199,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/lotgd/module-project/zipball/53aecabdf0b03704b358b02ae576119dca9b5707" title="53aecabdf0b03704b358b02ae576119dca9b5707">dev-master</a>                                </td>
+                                    <a href="https://api.github.com/repos/lotgd/module-project/zipball/52f4f58f8cc06042b3f09cc48b48901ebd8c9b66" title="52f4f58f8cc06042b3f09cc48b48901ebd8c9b66">dev-master</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -264,7 +233,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/lotgd/module-simple-inventory/zipball/40fb22022ef199e3d2ca6d53e6c811cec98d8b52" title="40fb22022ef199e3d2ca6d53e6c811cec98d8b52">dev-master</a>                                </td>
+                                    <a href="https://api.github.com/repos/lotgd/module-simple-inventory/zipball/fd0f9eb38b57ad8e960df5d6977d2569cd426043" title="fd0f9eb38b57ad8e960df5d6977d2569cd426043">dev-master</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -301,7 +270,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/lotgd/module-simple-wealth/zipball/b031cd04a01b403d1419b7c1ab6e5e09bbc38d25" title="b031cd04a01b403d1419b7c1ab6e5e09bbc38d25">dev-master</a>                                </td>
+                                    <a href="https://api.github.com/repos/lotgd/module-simple-wealth/zipball/3b3e90bbe083f3c88a781630fb140502bc8d929e" title="3b3e90bbe083f3c88a781630fb140502bc8d929e">dev-master</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -348,7 +317,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
             </div>
         </div>
         <div id="ft">
-            <p><small>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> 1.0.0-dev - Last updated:  2016-08-23T22:38:19+0000</small></p>
+            <p><small>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> 1.0.0-dev - Last updated:  2016-08-27T04:45:32+0000</small></p>
         </div>
     </div>
 
@@ -399,7 +368,7 @@ if(x.isFunction(n))while(r=o[i++])"+"===r[0]?(r=r.slice(1)||"*",(e[r]=e[r]||[]).
         $(window).trigger("hashchange");
         var $lastUpdate = $('#lastupdate time');
         function updateDate() {
-            $lastUpdate.text(moment('2016-08-23T22:38:19+0000').fromNow());
+            $lastUpdate.text(moment('2016-08-27T04:45:32+0000').fromNow());
         }
         setInterval(updateDate, 5000);
         updateDate();
