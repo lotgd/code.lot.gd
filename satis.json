@@ -8,7 +8,8 @@
         { "type": "vcs", "url": "https://github.com/lotgd/module-forms" },
         { "type": "vcs", "url": "https://github.com/lotgd/module-weapon-shop" },
         { "type": "vcs", "url": "https://github.com/lotgd/module-simple-inventory" },
-        { "type": "vcs", "url": "https://github.com/lotgd/module-simple-wealth" }
+        { "type": "vcs", "url": "https://github.com/lotgd/module-simple-wealth" },
+        { "type": "vcs", "url": "https://github.com/lotgd/module-village" }
     ],
     "require-all": true
 }

@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/core.git",
-                    "reference": "019a24833327983ddcb95fe7bbe3bbc3c03b2cb1"
+                    "reference": "c585dcb33a800d2594a342e20c5a4ce57b04daea"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/core/zipball/019a24833327983ddcb95fe7bbe3bbc3c03b2cb1",
-                    "reference": "019a24833327983ddcb95fe7bbe3bbc3c03b2cb1",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/c585dcb33a800d2594a342e20c5a4ce57b04daea",
+                    "reference": "c585dcb33a800d2594a342e20c5a4ce57b04daea",
                     "shasum": ""
                 },
                 "require": {
@@ -31,7 +31,7 @@
                     "phpunit/dbunit": "*",
                     "phpunit/phpunit": "*"
                 },
-                "time": "2016-08-29 11:41:02",
+                "time": "2016-08-30 20:40:09",
                 "bin": [
                     "bin/daenerys"
                 ],
@@ -47,7 +47,57 @@
                 ],
                 "description": "Core functionality for Legend of the Green Dragon, a text-based RPG game.",
                 "support": {
-                    "source": "https://github.com/lotgd/core/tree/master",
+                    "source": "https://github.com/lotgd/core/tree/bug/fix-scene",
+                    "issues": "https://github.com/lotgd/core/issues"
+                }
+            },
+            "dev-bug/fix-scene": {
+                "name": "lotgd/core",
+                "version": "dev-bug/fix-scene",
+                "version_normalized": "dev-bug/fix-scene",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/core.git",
+                    "reference": "c585dcb33a800d2594a342e20c5a4ce57b04daea"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/c585dcb33a800d2594a342e20c5a4ce57b04daea",
+                    "reference": "c585dcb33a800d2594a342e20c5a4ce57b04daea",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/composer": "*",
+                    "d11wtq/boris": "^1.0",
+                    "doctrine/orm": "^2.5",
+                    "gedmo/doctrine-extensions": "*",
+                    "monolog/monolog": "^1.12",
+                    "php": "^7.0.0",
+                    "symfony/console": "^3.0",
+                    "symfony/yaml": "^3.0"
+                },
+                "require-dev": {
+                    "block8/php-docblock-checker": "2.0.0",
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2016-08-30 20:40:09",
+                "bin": [
+                    "bin/daenerys"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Core\\": "src/",
+                        "LotGD\\Core\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "description": "Core functionality for Legend of the Green Dragon, a text-based RPG game.",
+                "support": {
+                    "source": "https://github.com/lotgd/core/tree/bug/fix-scene",
                     "issues": "https://github.com/lotgd/core/issues"
                 }
             },
@@ -147,7 +197,7 @@
                 ],
                 "description": "Core functionality for Legend of the Green Dragon, a text-based RPG game.",
                 "support": {
-                    "source": "https://github.com/lotgd/core/tree/test/configuration",
+                    "source": "https://github.com/lotgd/core/tree/master",
                     "issues": "https://github.com/lotgd/core/issues"
                 }
             }
@@ -245,18 +295,22 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-project.git",
-                    "reference": "09bacd145e4aba53f4e0b71b1963b9afecef4c94"
+                    "reference": "9e6dff004b60480ce3995d445ebba549db8eebcb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-project/zipball/09bacd145e4aba53f4e0b71b1963b9afecef4c94",
-                    "reference": "09bacd145e4aba53f4e0b71b1963b9afecef4c94",
+                    "url": "https://api.github.com/repos/lotgd/module-project/zipball/9e6dff004b60480ce3995d445ebba549db8eebcb",
+                    "reference": "9e6dff004b60480ce3995d445ebba549db8eebcb",
                     "shasum": ""
                 },
                 "require": {
                     "lotgd/core": "dev-master"
                 },
-                "time": "2016-08-28 04:38:53",
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "^4.1|^5.1"
+                },
+                "time": "2016-09-01 11:04:35",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
@@ -404,6 +458,55 @@
                 "support": {
                     "source": "https://github.com/lotgd/module-weapon-shop/tree/master",
                     "issues": "https://github.com/lotgd/module-weapon-shop/issues"
+                }
+            }
+        },
+        "lotgd/village": {
+            "dev-master": {
+                "name": "lotgd/village",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/lotgd/module-village.git",
+                    "reference": "c95131b4987dff82cfbdb3dc614766e81c992893"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/lotgd/module-village/zipball/c95131b4987dff82cfbdb3dc614766e81c992893",
+                    "reference": "c95131b4987dff82cfbdb3dc614766e81c992893",
+                    "shasum": ""
+                },
+                "require": {
+                    "lotgd/core": "dev-master"
+                },
+                "require-dev": {
+                    "phpunit/dbunit": "*"
+                },
+                "time": "2016-09-02 06:59:07",
+                "type": "lotgd-module",
+                "autoload": {
+                    "psr-4": {
+                        "LotGD\\Module\\Village\\": "src/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Basilius Sauter",
+                        "email": "basilius.sauter@gmail.com"
+                    },
+                    {
+                        "name": "Austen McDonald",
+                        "email": "austen.mcdonald@gmail.com"
+                    }
+                ],
+                "description": "A basic village.",
+                "support": {
+                    "source": "https://github.com/lotgd/module-village/tree/master",
+                    "issues": "https://github.com/lotgd/module-village/issues"
                 }
             }
         }

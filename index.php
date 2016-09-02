@@ -45,7 +45,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                     Legend of the Green Dragon Repositories
                             </h1>
                         <div id="lastupdate">
-                Last updated: <time datetime="2016-08-29T19:54:44+0000">Mon, 29 Aug 2016 19:54:44 +0000</time>
+                Last updated: <time datetime="2016-09-02T07:06:23+0000">Fri, 02 Sep 2016 07:06:23 +0000</time>
             </div>
         </div>
         <div id="bd">
@@ -76,7 +76,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                 <th>Support</th>
                                 <td>
                                     <ul>
-                                                                            <li>Source: <a href="https://github.com/lotgd/core/tree/master">https://github.com/lotgd/core/tree/master</a></li>
+                                                                            <li>Source: <a href="https://github.com/lotgd/core/tree/bug/fix-scene">https://github.com/lotgd/core/tree/bug/fix-scene</a></li>
                                                                             <li>Issues: <a href="https://github.com/lotgd/core/issues">https://github.com/lotgd/core/issues</a></li>
                                                                         </ul>
                                 </td>
@@ -84,7 +84,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/lotgd/core/zipball/019a24833327983ddcb95fe7bbe3bbc3c03b2cb1" title="019a24833327983ddcb95fe7bbe3bbc3c03b2cb1">dev-master</a>, <a href="https://api.github.com/repos/lotgd/core/zipball/ab8ab726adcf98283ea28e65d34e6eb3eb641b86" title="ab8ab726adcf98283ea28e65d34e6eb3eb641b86">dev-feature/add-actiongroup-constant</a>, <a href="https://api.github.com/repos/lotgd/core/zipball/cbcc6060253e9b6e56d3c8ab67f42134fd4cd2f9" title="cbcc6060253e9b6e56d3c8ab67f42134fd4cd2f9">dev-test/configuration</a>                                </td>
+                                    <a href="https://api.github.com/repos/lotgd/core/zipball/c585dcb33a800d2594a342e20c5a4ce57b04daea" title="c585dcb33a800d2594a342e20c5a4ce57b04daea">dev-master</a>, <a href="https://api.github.com/repos/lotgd/core/zipball/c585dcb33a800d2594a342e20c5a4ce57b04daea" title="c585dcb33a800d2594a342e20c5a4ce57b04daea">dev-bug/fix-scene</a>, <a href="https://api.github.com/repos/lotgd/core/zipball/ab8ab726adcf98283ea28e65d34e6eb3eb641b86" title="ab8ab726adcf98283ea28e65d34e6eb3eb641b86">dev-feature/add-actiongroup-constant</a>, <a href="https://api.github.com/repos/lotgd/core/zipball/cbcc6060253e9b6e56d3c8ab67f42134fd4cd2f9" title="cbcc6060253e9b6e56d3c8ab67f42134fd4cd2f9">dev-test/configuration</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -95,6 +95,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                                                             <li><a href="#lotgd/module-simple-inventory">lotgd/module-simple-inventory</a></li>
                                                                                             <li><a href="#lotgd/module-simple-wealth">lotgd/module-simple-wealth</a></li>
                                                                                             <li><a href="#lotgd/module-weapon-shop">lotgd/module-weapon-shop</a></li>
+                                                                                            <li><a href="#lotgd/village">lotgd/village</a></li>
                                                                                     </ul>
                                                                     </td>
                             </tr>
@@ -200,7 +201,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/lotgd/module-project/zipball/09bacd145e4aba53f4e0b71b1963b9afecef4c94" title="09bacd145e4aba53f4e0b71b1963b9afecef4c94">dev-master</a>                                </td>
+                                    <a href="https://api.github.com/repos/lotgd/module-project/zipball/9e6dff004b60480ce3995d445ebba549db8eebcb" title="9e6dff004b60480ce3995d445ebba549db8eebcb">dev-master</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -314,11 +315,45 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                             </tr>
                         </table>
                     </div>
+                                    <div>
+                        <h3 id="lotgd/village">lotgd/village<a href="#lotgd/village"><small>¶</small></a></h3>
+                                                                            <p>A basic village.</p>
+                                                <table>
+                                                                                        <tr>
+                                    <th>License</th>
+                                    <td>AGPL-3.0</td>
+                                </tr>
+                                                                                        <tr>
+                                    <th>Authors</th>
+                                    <td>
+                                        Basilius Sauter, Austen McDonald                                    </td>
+                                </tr>
+                                                                                    <tr>
+                                <th>Support</th>
+                                <td>
+                                    <ul>
+                                                                            <li>Source: <a href="https://github.com/lotgd/module-village/tree/master">https://github.com/lotgd/module-village/tree/master</a></li>
+                                                                            <li>Issues: <a href="https://github.com/lotgd/module-village/issues">https://github.com/lotgd/module-village/issues</a></li>
+                                                                        </ul>
+                                </td>
+                            </tr>
+                                                        <tr>
+                                <th>Releases</th>
+                                <td>
+                                    <a href="https://api.github.com/repos/lotgd/module-village/zipball/c95131b4987dff82cfbdb3dc614766e81c992893" title="c95131b4987dff82cfbdb3dc614766e81c992893">dev-master</a>                                </td>
+                            </tr>
+                            <tr>
+                                <th>Required by</th>
+                                <td>
+                                                                                                        </td>
+                            </tr>
+                        </table>
+                    </div>
                                 </div>
             </div>
         </div>
         <div id="ft">
-            <p><small>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> 1.0.0-dev - Last updated:  2016-08-29T19:54:44+0000</small></p>
+            <p><small>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> 1.0.0-dev - Last updated:  2016-09-02T07:06:23+0000</small></p>
         </div>
     </div>
 
@@ -369,7 +404,7 @@ if(x.isFunction(n))while(r=o[i++])"+"===r[0]?(r=r.slice(1)||"*",(e[r]=e[r]||[]).
         $(window).trigger("hashchange");
         var $lastUpdate = $('#lastupdate time');
         function updateDate() {
-            $lastUpdate.text(moment('2016-08-29T19:54:44+0000').fromNow());
+            $lastUpdate.text(moment('2016-09-02T07:06:23+0000').fromNow());
         }
         setInterval(updateDate, 5000);
         updateDate();
