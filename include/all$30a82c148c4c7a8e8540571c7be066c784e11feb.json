@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/core.git",
-                    "reference": "c585dcb33a800d2594a342e20c5a4ce57b04daea"
+                    "reference": "f7e34162e84bb79c403d0e40ce9ab8d00bdfcce1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/core/zipball/c585dcb33a800d2594a342e20c5a4ce57b04daea",
-                    "reference": "c585dcb33a800d2594a342e20c5a4ce57b04daea",
+                    "url": "https://api.github.com/repos/lotgd/core/zipball/f7e34162e84bb79c403d0e40ce9ab8d00bdfcce1",
+                    "reference": "f7e34162e84bb79c403d0e40ce9ab8d00bdfcce1",
                     "shasum": ""
                 },
                 "require": {
@@ -31,7 +31,7 @@
                     "phpunit/dbunit": "*",
                     "phpunit/phpunit": "*"
                 },
-                "time": "2016-08-30 20:40:09",
+                "time": "2016-09-04 06:08:00",
                 "bin": [
                     "bin/daenerys"
                 ],
@@ -47,7 +47,7 @@
                 ],
                 "description": "Core functionality for Legend of the Green Dragon, a text-based RPG game.",
                 "support": {
-                    "source": "https://github.com/lotgd/core/tree/bug/fix-scene",
+                    "source": "https://github.com/lotgd/core/tree/master",
                     "issues": "https://github.com/lotgd/core/issues"
                 }
             },
@@ -197,7 +197,7 @@
                 ],
                 "description": "Core functionality for Legend of the Green Dragon, a text-based RPG game.",
                 "support": {
-                    "source": "https://github.com/lotgd/core/tree/master",
+                    "source": "https://github.com/lotgd/core/tree/test/configuration",
                     "issues": "https://github.com/lotgd/core/issues"
                 }
             }
@@ -253,18 +253,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-forms.git",
-                    "reference": "8bbe31c641f6019ae01efeb14aa657cc08f77224"
+                    "reference": "e88925669e92fa1b31b432cc99eb78ccf00e9128"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-forms/zipball/8bbe31c641f6019ae01efeb14aa657cc08f77224",
-                    "reference": "8bbe31c641f6019ae01efeb14aa657cc08f77224",
+                    "url": "https://api.github.com/repos/lotgd/module-forms/zipball/e88925669e92fa1b31b432cc99eb78ccf00e9128",
+                    "reference": "e88925669e92fa1b31b432cc99eb78ccf00e9128",
                     "shasum": ""
                 },
                 "require": {
                     "myclabs/php-enum": "^1.4.2"
                 },
-                "time": "2016-08-21 03:52:30",
+                "time": "2016-09-05 08:25:48",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
@@ -425,20 +425,25 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-weapon-shop.git",
-                    "reference": "5bbc934c8c6d5ee31d9d188a957c4c8145baa82b"
+                    "reference": "9bcaa45f4af8544d329de1d5469e7b76fecd2612"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-weapon-shop/zipball/5bbc934c8c6d5ee31d9d188a957c4c8145baa82b",
-                    "reference": "5bbc934c8c6d5ee31d9d188a957c4c8145baa82b",
+                    "url": "https://api.github.com/repos/lotgd/module-weapon-shop/zipball/9bcaa45f4af8544d329de1d5469e7b76fecd2612",
+                    "reference": "9bcaa45f4af8544d329de1d5469e7b76fecd2612",
                     "shasum": ""
                 },
                 "require": {
                     "lotgd/core": "dev-master",
                     "lotgd/module-forms": "dev-master",
-                    "lotgd/module-simple-inventory": "dev-master"
+                    "lotgd/module-simple-inventory": "dev-master",
+                    "lotgd/module-simple-wealth": "dev-master"
                 },
-                "time": "2016-08-29 12:06:05",
+                "require-dev": {
+                    "phpunit/dbunit": "*",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2016-09-05 10:02:26",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
@@ -469,12 +474,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-village.git",
-                    "reference": "c95131b4987dff82cfbdb3dc614766e81c992893"
+                    "reference": "5df64d2843ebc95718c6279f148696a663562ff1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-village/zipball/c95131b4987dff82cfbdb3dc614766e81c992893",
-                    "reference": "c95131b4987dff82cfbdb3dc614766e81c992893",
+                    "url": "https://api.github.com/repos/lotgd/module-village/zipball/5df64d2843ebc95718c6279f148696a663562ff1",
+                    "reference": "5df64d2843ebc95718c6279f148696a663562ff1",
                     "shasum": ""
                 },
                 "require": {
@@ -483,7 +488,7 @@
                 "require-dev": {
                     "phpunit/dbunit": "*"
                 },
-                "time": "2016-09-02 06:59:07",
+                "time": "2016-09-05 07:32:15",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {
