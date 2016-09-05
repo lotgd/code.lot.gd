@@ -253,18 +253,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/lotgd/module-forms.git",
-                    "reference": "e88925669e92fa1b31b432cc99eb78ccf00e9128"
+                    "reference": "4068a766a9a28d913447abfe18d3a326cbaace44"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/lotgd/module-forms/zipball/e88925669e92fa1b31b432cc99eb78ccf00e9128",
-                    "reference": "e88925669e92fa1b31b432cc99eb78ccf00e9128",
+                    "url": "https://api.github.com/repos/lotgd/module-forms/zipball/4068a766a9a28d913447abfe18d3a326cbaace44",
+                    "reference": "4068a766a9a28d913447abfe18d3a326cbaace44",
                     "shasum": ""
                 },
                 "require": {
                     "myclabs/php-enum": "^1.4.2"
                 },
-                "time": "2016-09-05 08:25:48",
+                "time": "2016-09-05 10:48:55",
                 "type": "lotgd-module",
                 "autoload": {
                     "psr-4": {

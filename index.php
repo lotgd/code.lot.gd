@@ -45,7 +45,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                     Legend of the Green Dragon Repositories
                             </h1>
                         <div id="lastupdate">
-                Last updated: <time datetime="2016-09-05T10:39:52+0000">Mon, 05 Sep 2016 10:39:52 +0000</time>
+                Last updated: <time datetime="2016-09-05T10:49:43+0000">Mon, 05 Sep 2016 10:49:43 +0000</time>
             </div>
         </div>
         <div id="bd">
@@ -164,7 +164,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
                                                         <tr>
                                 <th>Releases</th>
                                 <td>
-                                    <a href="https://api.github.com/repos/lotgd/module-forms/zipball/e88925669e92fa1b31b432cc99eb78ccf00e9128" title="e88925669e92fa1b31b432cc99eb78ccf00e9128">dev-master</a>                                </td>
+                                    <a href="https://api.github.com/repos/lotgd/module-forms/zipball/4068a766a9a28d913447abfe18d3a326cbaace44" title="4068a766a9a28d913447abfe18d3a326cbaace44">dev-master</a>                                </td>
                             </tr>
                             <tr>
                                 <th>Required by</th>
@@ -356,7 +356,7 @@ input#search { font-size: 20px; margin: 5px 0; padding: 4px 5px; width: 100%; bo
             </div>
         </div>
         <div id="ft">
-            <p><small>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> 1.0.0-dev - Last updated:  2016-09-05T10:39:52+0000</small></p>
+            <p><small>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> 1.0.0-dev - Last updated:  2016-09-05T10:49:43+0000</small></p>
         </div>
     </div>
 
@@ -407,7 +407,7 @@ if(x.isFunction(n))while(r=o[i++])"+"===r[0]?(r=r.slice(1)||"*",(e[r]=e[r]||[]).
         $(window).trigger("hashchange");
         var $lastUpdate = $('#lastupdate time');
         function updateDate() {
-            $lastUpdate.text(moment('2016-09-05T10:39:52+0000').fromNow());
+            $lastUpdate.text(moment('2016-09-05T10:49:43+0000').fromNow());
         }
         setInterval(updateDate, 5000);
         updateDate();
