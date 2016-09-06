@@ -1,5 +1,0 @@
-#!/bin/bash -e
-
-# Regenerate the html pages from the package list.
-php vendor/bin/satis build satis.json .
-mv index.html index.php
