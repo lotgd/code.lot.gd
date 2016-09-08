@@ -31,7 +31,7 @@ $app->get('/include/{filename}', function ($filename) use ($app) {
     return $app->sendFile($filepath);
 });
 
-$app->get('/github-hook', function () use ($app) {
+$app->match('/github-hook', function () use ($app) {
     // Composer needs this to be set to operate.
     putenv('COMPOSER_HOME=' . __DIR__);
 
@@ -47,7 +47,6 @@ $app->get('/github-hook', function () use ($app) {
         'output-dir' => './generated',
         '--skip-errors' => 'true'
     ));
-    //$output = new BufferedOutput();
     $output = new StreamOutput(fopen('./logs/satis.log', 'a', false));
     $output->writeln('=== ' . date(DateTime::ISO8601));
 
