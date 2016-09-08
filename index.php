@@ -32,6 +32,9 @@ $app->get('/include/{filename}', function ($filename) use ($app) {
 });
 
 $app->get('/github-hook', function () use ($app) {
+    // Composer needs this to be set to operate.
+    putenv('COMPOSER_HOME=' . __DIR__);
+
     $app['monolog']->addNotice("Regenerating using Satis...");
 
     $application = new Application();
