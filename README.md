@@ -44,3 +44,21 @@ Follow the example of the Hello World module:
     { "type": "vcs", "url": "https://github.com/your/module-url-here" }
   ]
 ```
+
+## Deployment
+
+Create a docker image:
+```
+docker build --build-arg GITHUB_TOKEN=<token> -t code-lotgd .
+```
+
+Start the container:
+```
+docker run -p 0.0.0.0:80:80 -d -t --name code code-lotgd
+```
+
+To read the logs:
+```
+docker exec -t -i code cat /var/www/html/the.log
+docker exec -t -i code cat /var/www/html/satis.log
+```
