@@ -1,17 +1,12 @@
 <?php
 require_once __DIR__ . '/vendor/autoload.php';
 
-use Composer\Satis\Command\BuildCommand;
-use Composer\Satis\Console\Application;
-use Symfony\Component\Console\Input\ArrayInput;
-use Symfony\Component\Console\Output\BufferedOutput;
-use Symfony\Component\Console\Output\StreamOutput;
 use Symfony\Component\HttpFoundation\Response;
 
 $app = new Silex\Application();
 
 $app->register(new Silex\Provider\MonologServiceProvider(), array(
-    'monolog.logfile' => __DIR__ . '/logs/the.log',
+    'monolog.logfile' => '/var/www/html/logs/code-lotgd.log',
 ));
 
 $app->get('/', function () use ($app) {
@@ -32,27 +27,9 @@ $app->get('/include/{filename}', function ($filename) use ($app) {
 });
 
 $app->match('/github-hook', function () use ($app) {
-    // Composer needs this to be set to operate.
-    putenv('COMPOSER_HOME=' . __DIR__);
-
-    $app['monolog']->addNotice("Regenerating using Satis...");
-
-    $application = new Application();
-    $application->setAutoExit(false);
-
-    $input = new ArrayInput(array(
-        '--no-interaction' => 'true',
-        'command' => 'build',
-        'file' => 'satis.json',
-        'output-dir' => './generated',
-        '--skip-errors' => 'true'
-    ));
-    $output = new StreamOutput(fopen('./logs/satis.log', 'a', false));
-    $output->writeln('=== ' . date(DateTime::ISO8601));
-
-    $ret = $application->run($input, $output);
-
-    $app['monolog']->addNotice("Satis return value: {$ret}");
+    $client = new GearmanClient();
+    $client->addServer();
+    $client->doBackground("regenerate", "don't care");
 
     return new Response('', 204);
 });

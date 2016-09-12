@@ -9,6 +9,7 @@
     "require": {
         "composer/satis": "1.0.0-alpha2",
         "silex/silex": "~2.0",
-        "monolog/monolog": "^1.21"
+        "monolog/monolog": "^1.21",
+        "knplabs/github-api": "~1.4"
     }
 }

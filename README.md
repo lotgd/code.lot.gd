@@ -59,6 +59,6 @@ docker run -p 0.0.0.0:80:80 -d -t --name code code-lotgd
 
 To read the logs:
 ```
-docker exec -t -i code cat /var/www/html/logs/the.log
-docker exec -t -i code cat /var/www/html/logs/satis.log
+docker exec -t -i code cat /var/www/html/logs/code-lotgd.log
+docker exec -t -i code cat /var/log/regenerate.log
 ```
