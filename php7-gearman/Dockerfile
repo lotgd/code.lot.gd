@@ -22,3 +22,6 @@ RUN rm /tmp/install/master.zip
 
 # Verify if module is really installed
 RUN php -m | grep gearman
+
+# Enable mod_rewrite
+RUN a2enmod rewrite
