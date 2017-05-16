@@ -47,8 +47,9 @@ Follow the example of the Hello World module:
 
 ## Deployment
 
-Create a docker image:
+Create docker image for the base setup and the app:
 ```
+pushd php7-gearman && docker build -t php7-gearman . && popd
 docker build --build-arg GITHUB_TOKEN=<token> -t code-lotgd .
 ```
 
