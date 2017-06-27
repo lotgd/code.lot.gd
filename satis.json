@@ -11,7 +11,8 @@
         { "type": "vcs", "url": "https://github.com/lotgd/module-simple-wealth" },
         { "type": "vcs", "url": "https://github.com/lotgd/module-village" },
         { "type": "vcs", "url": "https://github.com/lotgd/module-scene-bundle" },
-        { "type": "vcs", "url": "https://github.com/lotgd/module-new-day" }
+        { "type": "vcs", "url": "https://github.com/lotgd/module-new-day" },
+        { "type": "vcs", "url": "https://github.com/lotgd/module-gender" }
     ],
     "require-all": true
 }
