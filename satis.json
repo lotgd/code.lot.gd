@@ -13,6 +13,7 @@
         { "type": "vcs", "url": "https://github.com/lotgd/module-scene-bundle" },
         { "type": "vcs", "url": "https://github.com/lotgd/module-new-day" },
         { "type": "vcs", "url": "https://github.com/lotgd/module-gender" }
+        { "type": "vcs", "url": "https://github.com/lotgd/crate-graphql" }
     ],
     "require-all": true
 }
